@@ -1,0 +1,152 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,*:before,*:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:400;}
+
+/*обнуление почти всех поднастроек гугл хрома для html */
+
+
+$font-simple: 'Rubik', sans-serif;
+$background-color-1: #2639ED;
+$background-color-2: #000f9a;
+$color-text: #000000;
+
+
+span{
+  font-size: 20px;
+}
+
+
+button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  width: 215px;
+  height: 65px;
+  margin-left: 120px;
+  margin-top: 380px;
+
+  background: $background-color-1;
+  border-radius: 60px;
+  color: #FFFFFF;
+
+  font-weight: 500;
+  font-size: 18px;
+  font-family: $font-simple;
+
+  transition: 350ms;
+}
+
+button:hover {
+  background: $color-text;
+  transition: 350ms;
+}
+
+.logo {
+  position: absolute;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding-top: 50px;
+  font-family: 'Rubik', sans-serif;
+  .logo-s
+  {
+    font-weight: 900;
+    padding-left: 120px;
+    font-size: 30px;
+  }
+  .logo-text
+  {
+    padding-left: 5px;
+    font-size: 30px;
+  }
+}
+
+
+.menu-head
+{
+  text-align: right;
+  padding-top: 55px;
+  padding-right: 60px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-family: 'Rubik', sans-serif;
+  .menu-text
+  {
+    font-size: 20px;
+    margin-right: 60px;
+    transition: 350ms;
+    &:hover
+    {
+      font-size: 20px;
+      margin-right: 60px;
+      color: #2639ED;
+      transition: 350ms;
+    }
+  }
+}
+
+.paint-head
+{
+  position: absolute;
+  align-items: right;
+  padding-top: 50px;
+}
+
+
+.text-contact
+{
+  .text-main {
+    position: absolute;
+    padding-left: 120px;
+    padding-top: 150px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+  }
+  .text-secondary {
+    position: absolute;
+    padding-left: 120px;
+    padding-top: 280px;
+    font-size: 12px;
+    line-height: 160%;
+    color: #565656;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+  }
+
+}
+
