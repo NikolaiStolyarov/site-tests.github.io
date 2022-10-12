@@ -136,8 +136,7 @@ button:hover {
 }
 
 .paint-head {
-  position: absolute;
-  align-items: right;
+  float: right;
   padding-top: 50px;
 }
 
