@@ -93,6 +93,7 @@ button {
   font-size: 18px;
   font-family: "Rubik", sans-serif;
   transition: 350ms;
+  z-index: 10;
 }
 
 button:hover {
@@ -138,9 +139,10 @@ button:hover {
 .paint-head {
   float: right;
   padding-top: 50px;
+  z-index: 1;
 }
 
-.text-contact .text-main {
+.text-main {
   position: absolute;
   padding-left: 120px;
   padding-top: 150px;
@@ -148,13 +150,48 @@ button:hover {
   font-weight: 700;
   font-family: "Rubik", sans-serif;
 }
-.text-contact .text-secondary {
+
+.text-secondary {
   position: absolute;
   padding-left: 120px;
   padding-top: 280px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 160%;
   color: #565656;
   font-weight: 400;
   font-family: "Rubik", sans-serif;
+}
+
+.text-main-baner {
+  position: absolute;
+  padding-left: 120px;
+  padding-top: 750px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Rubik", sans-serif;
+}
+
+.text-secondary-baner {
+  position: absolute;
+  padding-left: 120px;
+  padding-top: 800px;
+  font-size: 14px;
+  line-height: 160%;
+  color: #565656;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+}
+
+.companies {
+  position: absolute;
+  padding-left: 516px;
+  padding-top: 720px;
+}
+.companies .companies-img {
+  margin-left: 55px;
+  margin-top: 55px;
+}
+.companies .companies-img-down {
+  margin-left: 55px;
+  margin-top: 67px;
 }/*# sourceMappingURL=index2.css.map */

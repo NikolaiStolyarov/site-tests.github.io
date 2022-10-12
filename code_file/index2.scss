@@ -39,6 +39,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:400;}
 /*обнуление почти всех поднастроек гугл хрома для html */
 
 
+
+@import '_index2imp';
+
+
 $font-simple: 'Rubik', sans-serif;
 $background-color-1: #2639ED;
 $background-color-2: #000f9a;
@@ -71,6 +75,7 @@ button{
   font-family: $font-simple;
 
   transition: 350ms;
+  z-index: 10;
 }
 
 button:hover {
@@ -124,29 +129,47 @@ button:hover {
   float: right;
   //тест
   padding-top: 50px;
+  z-index: 1;
 }
 
-
-.text-contact
-{
-  .text-main {
-    position: absolute;
-    padding-left: 120px;
-    padding-top: 150px;
-    font-size: 40px;
-    font-weight: 700;
-    font-family: 'Rubik', sans-serif;
-  }
-  .text-secondary {
-    position: absolute;
-    padding-left: 120px;
-    padding-top: 280px;
-    font-size: 12px;
-    line-height: 160%;
-    color: #565656;
-    font-weight: 400;
-    font-family: 'Rubik', sans-serif;
-  }
-
+.text-main {
+  position: absolute;
+  padding-left: 120px;
+  padding-top: 150px;
+  @include span1 ();
 }
 
+.text-secondary {
+  position: absolute;
+  padding-left: 120px;
+  padding-top: 280px;
+  @include span2 ();
+}
+
+.text-main-baner {
+  position: absolute;
+  padding-left: 120px;
+  padding-top: 750px;
+  @include span1 ();
+}
+
+.text-secondary-baner {
+  position: absolute;
+  padding-left: 120px;
+  padding-top: 800px;
+  @include span2 ();
+}
+
+.companies{
+  position: absolute;
+  padding-left: 516px;
+  padding-top: 720px;
+  .companies-img{
+    margin-left: 55px;
+    margin-top: 55px;
+  }
+  .companies-img-down{
+    margin-left: 55px;
+    margin-top: 67px;
+  }
+}

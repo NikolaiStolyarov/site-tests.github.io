@@ -1,0 +1,15 @@
+@mixin span1 () 
+{
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Rubik', sans-serif;
+}
+
+@mixin  span2 () 
+{
+  font-size: 14px;
+  line-height: 160%;
+  color: #565656;
+  font-weight: 400;
+  font-family: 'Rubik', sans-serif;
+}
