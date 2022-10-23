@@ -47,6 +47,7 @@ $font-simple: 'Rubik', sans-serif;
 $background-color-1: #2639ED;
 $background-color-2: #000f9a;
 $color-text: #000000;
+$indent: 180px;
 
 
 span{
@@ -63,7 +64,7 @@ button{
   position: absolute;
   width: 215px;
   height: 65px;
-  margin-left: 120px;
+  margin-left: $indent;
   margin-top: 380px;
 
   background: $background-color-1;
@@ -91,7 +92,7 @@ button:hover {
   .logo-s
   {
     font-weight: 900;
-    padding-left: 120px;
+    padding-left: $indent;
     font-size: 30px;
   }
   .logo-text
@@ -132,31 +133,54 @@ button:hover {
   z-index: 1;
 }
 
+.paint-baner
+{
+  float: right;
+  //тест
+  padding-top: 300px;
+  z-index: 1;
+
+}
+
 .text-main {
   position: absolute;
-  padding-left: 120px;
+  padding-left: $indent;
   padding-top: 150px;
   @include span1 ();
 }
 
 .text-secondary {
   position: absolute;
-  padding-left: 120px;
+  padding-left: $indent;
   padding-top: 280px;
   @include span2 ();
 }
 
-.text-main-baner {
+.text-main-company {
   position: absolute;
-  padding-left: 120px;
+  padding-left: $indent;
   padding-top: 750px;
   @include span1 ();
 }
 
-.text-secondary-baner {
+.text-secondary-company {
   position: absolute;
-  padding-left: 120px;
+  padding-left: $indent;
   padding-top: 800px;
+  @include span2 ();
+}
+
+.text-main-help {
+  position: absolute;
+  padding-left: $indent;
+  padding-top: 1180px;
+  @include span1 ();
+}
+
+.text-secondary-help {
+  position: absolute;
+  padding-left: $indent;
+  padding-top: 1310px;
   @include span2 ();
 }
 
@@ -173,3 +197,41 @@ button:hover {
     margin-top: 67px;
   }
 }
+
+.boxs {
+  position: absolute;
+  padding-left: 700px;
+  padding-top: 850px;
+  z-index: 2;
+}
+.boxs-icons {
+  position: absolute;
+  padding-left: 850px;
+  padding-top: 930px;
+  z-index:3;
+}
+.icons {    
+  position: absolute;
+  padding-left: 875px;
+  padding-top: 953px;
+  z-index:3;
+}
+
+//текст 
+.boxs-four{
+  .boxs-main {
+    position: absolute;
+    text-align: center;
+    padding-left: 1000px;
+    padding-top: 1050px;
+    @include span1 ();
+  }
+  .boxs-secondary {
+    position: absolute;
+    text-align: center;
+    padding-left: $indent;
+    padding-top: 1200px;
+    @include span2 ();
+  }
+}
+

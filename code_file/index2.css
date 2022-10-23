@@ -84,7 +84,7 @@ button {
   position: absolute;
   width: 215px;
   height: 65px;
-  margin-left: 120px;
+  margin-left: 180px;
   margin-top: 380px;
   background: #2639ED;
   border-radius: 60px;
@@ -109,7 +109,7 @@ button:hover {
 }
 .logo .logo-s {
   font-weight: 900;
-  padding-left: 120px;
+  padding-left: 180px;
   font-size: 30px;
 }
 .logo .logo-text {
@@ -142,9 +142,15 @@ button:hover {
   z-index: 1;
 }
 
+.paint-baner {
+  float: right;
+  padding-top: 300px;
+  z-index: 1;
+}
+
 .text-main {
   position: absolute;
-  padding-left: 120px;
+  padding-left: 180px;
   padding-top: 150px;
   font-size: 40px;
   font-weight: 700;
@@ -153,7 +159,7 @@ button:hover {
 
 .text-secondary {
   position: absolute;
-  padding-left: 120px;
+  padding-left: 180px;
   padding-top: 280px;
   font-size: 14px;
   line-height: 160%;
@@ -162,19 +168,39 @@ button:hover {
   font-family: "Rubik", sans-serif;
 }
 
-.text-main-baner {
+.text-main-company {
   position: absolute;
-  padding-left: 120px;
+  padding-left: 180px;
   padding-top: 750px;
   font-size: 40px;
   font-weight: 700;
   font-family: "Rubik", sans-serif;
 }
 
-.text-secondary-baner {
+.text-secondary-company {
   position: absolute;
-  padding-left: 120px;
+  padding-left: 180px;
   padding-top: 800px;
+  font-size: 14px;
+  line-height: 160%;
+  color: #565656;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+}
+
+.text-main-help {
+  position: absolute;
+  padding-left: 180px;
+  padding-top: 1180px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Rubik", sans-serif;
+}
+
+.text-secondary-help {
+  position: absolute;
+  padding-left: 180px;
+  padding-top: 1310px;
   font-size: 14px;
   line-height: 160%;
   color: #565656;
@@ -194,4 +220,46 @@ button:hover {
 .companies .companies-img-down {
   margin-left: 55px;
   margin-top: 67px;
+}
+
+.boxs {
+  position: absolute;
+  padding-left: 700px;
+  padding-top: 850px;
+  z-index: 2;
+}
+
+.boxs-icons {
+  position: absolute;
+  padding-left: 850px;
+  padding-top: 930px;
+  z-index: 3;
+}
+
+.icons {
+  position: absolute;
+  padding-left: 875px;
+  padding-top: 953px;
+  z-index: 3;
+}
+
+.boxs-four .boxs-main {
+  position: absolute;
+  text-align: center;
+  padding-left: 1000px;
+  padding-top: 1050px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Rubik", sans-serif;
+}
+.boxs-four .boxs-secondary {
+  position: absolute;
+  text-align: center;
+  padding-left: 180px;
+  padding-top: 1200px;
+  font-size: 14px;
+  line-height: 160%;
+  color: #565656;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
 }/*# sourceMappingURL=index2.css.map */
