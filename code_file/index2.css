@@ -136,22 +136,64 @@ button:hover {
   transition: 350ms;
 }
 
+/*
+.logo {
+  position: absolute;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-family: 'Rubik', sans-serif;
+  .logo-s
+  {
+    font-weight: 900;
+    margin-left: $indent;
+    font-size: 30px;
+  }
+  .logo-text
+  {
+    padding-left: 5px;
+    font-size: 30px;
+  }
+}
+
+
+.menu-head
+{
+  text-align: right;
+  margin-top: 55px;
+  margin-right: 60px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-family: 'Rubik', sans-serif;
+  .menu-text
+  {
+    font-size: 20px;
+    margin-right: 60px;
+    transition: 350ms;
+    &:hover
+    {
+      font-size: 20px;
+      margin-right: 60px;
+      color: #2639ED;
+      transition: 350ms;
+    }
+  }
+}
+
+*/
 .paint-head {
   float: right;
-  padding-top: 50px;
+  margin-top: 50px;
   z-index: 1;
 }
 
 .paint-baner {
   float: right;
-  padding-top: 300px;
+  margin-top: 300px;
   z-index: 1;
 }
 
 .text-main {
   position: absolute;
-  padding-left: 180px;
-  padding-top: 150px;
+  margin-left: 180px;
+  margin-top: 150px;
   font-size: 40px;
   font-weight: 700;
   font-family: "Rubik", sans-serif;
@@ -159,8 +201,8 @@ button:hover {
 
 .text-secondary {
   position: absolute;
-  padding-left: 180px;
-  padding-top: 280px;
+  margin-left: 180px;
+  margin-top: 280px;
   font-size: 14px;
   line-height: 160%;
   color: #565656;
@@ -170,8 +212,8 @@ button:hover {
 
 .text-main-company {
   position: absolute;
-  padding-left: 180px;
-  padding-top: 750px;
+  margin-left: 180px;
+  margin-top: 750px;
   font-size: 40px;
   font-weight: 700;
   font-family: "Rubik", sans-serif;
@@ -179,8 +221,8 @@ button:hover {
 
 .text-secondary-company {
   position: absolute;
-  padding-left: 180px;
-  padding-top: 800px;
+  margin-left: 180px;
+  margin-top: 800px;
   font-size: 14px;
   line-height: 160%;
   color: #565656;
@@ -190,8 +232,8 @@ button:hover {
 
 .text-main-help {
   position: absolute;
-  padding-left: 180px;
-  padding-top: 1180px;
+  margin-left: 180px;
+  margin-top: 1180px;
   font-size: 40px;
   font-weight: 700;
   font-family: "Rubik", sans-serif;
@@ -199,8 +241,8 @@ button:hover {
 
 .text-secondary-help {
   position: absolute;
-  padding-left: 180px;
-  padding-top: 1310px;
+  margin-left: 180px;
+  margin-top: 1310px;
   font-size: 14px;
   line-height: 160%;
   color: #565656;
@@ -210,8 +252,9 @@ button:hover {
 
 .companies {
   position: absolute;
-  padding-left: 516px;
-  padding-top: 720px;
+  margin-left: 516px;
+  margin-top: 720px;
+  z-index: 10;
 }
 .companies .companies-img {
   margin-left: 55px;
@@ -222,44 +265,21 @@ button:hover {
   margin-top: 67px;
 }
 
-.boxs {
-  position: absolute;
-  padding-left: 700px;
-  padding-top: 850px;
+.boxs-four {
+  float: right;
+  margin-top: -500px;
+  margin-right: -1050px;
+  text-align: center;
+}
+.boxs-four .boxs {
+  margin-top: 850px;
   z-index: 2;
 }
-
-.boxs-icons {
-  position: absolute;
-  padding-left: 850px;
-  padding-top: 930px;
-  z-index: 3;
+.boxs-four .boxs-icons {
+  margin-top: -400px;
+  z-index: 2;
 }
-
-.icons {
-  position: absolute;
-  padding-left: 875px;
-  padding-top: 953px;
-  z-index: 3;
-}
-
-.boxs-four .boxs-main {
-  position: absolute;
-  text-align: center;
-  padding-left: 1000px;
-  padding-top: 1050px;
-  font-size: 40px;
-  font-weight: 700;
-  font-family: "Rubik", sans-serif;
-}
-.boxs-four .boxs-secondary {
-  position: absolute;
-  text-align: center;
-  padding-left: 180px;
-  padding-top: 1200px;
-  font-size: 14px;
-  line-height: 160%;
-  color: #565656;
-  font-weight: 400;
-  font-family: "Rubik", sans-serif;
+.boxs-four .icons {
+  margin-top: -50px;
+  z-index: 2;
 }/*# sourceMappingURL=index2.css.map */
