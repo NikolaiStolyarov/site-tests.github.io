@@ -180,7 +180,7 @@ button:hover {
 {
   float: right;
   //тест
-  margin-top: 300px;
+  margin-top: 400px;
   z-index: 1;
 
 }
@@ -216,14 +216,14 @@ button:hover {
 .text-main-help {
   position: absolute;
   margin-left: $indent;
-  margin-top: 1180px;
+  margin-top: 1280px;
   @include span1 ();
 }
 
 .text-secondary-help {
   position: absolute;
   margin-left: $indent;
-  margin-top: 1310px;
+  margin-top: 1400px;
   @include span2 ();
 }
 
@@ -242,14 +242,14 @@ button:hover {
   }
 }
 
-//текст 
+
 .boxs-four{
   float: right;
-  margin-top: -500px;
-  margin-right: -1050px;
+  margin-top: -410px;
+  margin-right: -1000px;
   text-align: center;
   .boxs {
-    margin-top: 850px;
+    margin-top: 700px;
     z-index: 2;
   }
   .boxs-icons {
@@ -257,8 +257,100 @@ button:hover {
     z-index:2;
   }
   .icons {  
-    margin-top: -50px;
+    margin-top: -100px;
     z-index:2;
   }
+  .text-main-box{
+    @include spanbox1 ();
+    margin-top: 50px;
+  }
+  .text-secondary-box{
+    @include spanbox2 ();
+    margin-top: 30px;
+  }
+  
 }
 
+.boxs-four2{
+  float: right;
+  margin-top: 0px;
+  margin-right: -1000px;
+  text-align: center;
+  .boxs {
+    margin-top: 700px;
+    z-index: 2;
+  }
+  .boxs-icons {
+    margin-top: -400px;
+    z-index:2;
+  }
+  .icons {  
+    margin-top: -100px;
+    z-index:2;
+  }
+  .text-main-box{
+    @include spanbox1 ();
+    margin-top: 50px;
+  }
+  .text-secondary-box{
+    @include spanbox2 ();
+    margin-top: 30px;
+  }
+  
+}
+
+.boxs-four3{
+  float: right;
+  margin-top: -470px;
+  margin-right: -1340px;
+  text-align: center;
+  .boxs {
+    margin-top: 700px;
+    z-index: 2;
+  }
+  .boxs-icons {
+    margin-top: -400px;
+    z-index:2;
+  }
+  .icons {  
+    margin-top: -100px;
+    z-index:2;
+  }
+  .text-main-box{
+    @include spanbox1 ();
+    margin-top: 50px;
+  }
+  .text-secondary-box{
+    @include spanbox2 ();
+    margin-top: 30px;
+  }
+
+}
+
+.boxs-four4{
+  float: right;
+  margin-top: -60px;
+  margin-right: -1340px;
+  text-align: center;
+  .boxs {
+    margin-top: 700px;
+    z-index: 2;
+  }
+  .boxs-icons {
+    margin-top: -400px;
+    z-index:2;
+  }
+  .icons {  
+    margin-top: -100px;
+    z-index:2;
+  }
+  .text-main-box{
+    @include spanbox1 ();
+    margin-top: 50px;
+  }
+  .text-secondary-box{
+    @include spanbox2 ();
+    margin-top: 30px;
+  }
+
+}
