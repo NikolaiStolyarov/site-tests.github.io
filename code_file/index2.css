@@ -268,7 +268,7 @@ button:hover {
 .boxs-four {
   float: right;
   margin-top: -410px;
-  margin-right: -1000px;
+  margin-right: -900px;
   text-align: center;
 }
 .boxs-four .boxs {
@@ -301,7 +301,7 @@ button:hover {
 .boxs-four2 {
   float: right;
   margin-top: 0px;
-  margin-right: -1000px;
+  margin-right: -900px;
   text-align: center;
 }
 .boxs-four2 .boxs {
@@ -334,7 +334,7 @@ button:hover {
 .boxs-four3 {
   float: right;
   margin-top: -470px;
-  margin-right: -1340px;
+  margin-right: -1240px;
   text-align: center;
 }
 .boxs-four3 .boxs {
@@ -367,7 +367,7 @@ button:hover {
 .boxs-four4 {
   float: right;
   margin-top: -60px;
-  margin-right: -1340px;
+  margin-right: -1240px;
   text-align: center;
 }
 .boxs-four4 .boxs {
@@ -395,4 +395,9 @@ button:hover {
   font-weight: 400;
   font-family: "Rubik", sans-serif;
   margin-top: 30px;
+}
+
+.newpage {
+  padding-top: 2000px;
+  text-align: center;
 }/*# sourceMappingURL=index2.css.map */
